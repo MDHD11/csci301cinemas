@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>CSCI301 CINEMAS</title>
+</head>
+
+
+
+<body>
+<div class="topb">
+
+<ul class ="topmenu">
+
+<li><a href="login.html"target="_blank" >Login</li>
+<li><a href="#rewards"> Rewards  </li>
+</ul>
+<br><br>
+<ul class ="topmenu2">
+
+<li><a href="CINEMA.html" class="active"> Home</li>
+<li><a href="CINEMA.html#movies"> Movies  </li>
+<li><a href="#footer" class="active"> Find Us</li>
+<li><a href="times.html"> Find Screening Times  </li>
+</ul>
+</a>
+
+</div>
+<div>
+<h1>What movies to book?</h1>
+<table style="width:100vw">
+  <tr>
+    <th ><a href="#book" ><img src="Bohemian_HB-Eng-NoTagline_1542095889.JPG"> </a></th>
+    <th ><a href="#book" ><img src="HK_HB-NoTagline-Eng_1540888227.JPG"></a></th>
+  </tr>
+<tr>
+    <th><a href="#book" ><img src="Venom_HB-Pink_1538485207.JPG"></a></th>
+    <th ><a href="#book" ><img src="Nutcracker_HB-NoTagline_Eng_1540888201.JPG"></a></th>
+  </tr>
+
+</table>
+</div >
+<h1 id="movies" >Available Movies:</h1>
+
+<input class="searchin" type="search" name="firstname"></input>
+<label class="searchlabel" style="size:3em" >Search for a movie:</label> 
+
+<div id="table">
+
+
+<table>
+
+ <tr>
+    <th rowspan="2"><img src="P_HO00005897.JPG"></th>
+    <td><img src="P_HO00001718.JPG"></td>
+ <th rowspan="2"><img src="P_HO00005769.JPG"></th>
+  </tr>
+  <tr>
+    <td><img src="P_HO00005777.JPG"></td>
+
+  </tr>
+
+
+<tr>
+   
+    <td><img src="P_HO00005898.JPG"></td>
+ <th rowspan="2"><img src="P_HO00005900.JPG"></th>
+<td><img src="P_HO00005906.JPG"></td>
+
+  </tr>
+  <tr>
+   <td><img src="P_HO00005945.JPG"></td>
+<td><img src="P_HO00006084.JPG"></td>
+  </tr>
+
+
+
+
+</table>
+</div>
+
+<h1 id="book">Book a Movie:</h1>
+<form>
+<fieldset method="post">
+<legend> Details: </legend>
+<p><label class="label2" >First name:</label><input  type="text" name="firstname" required></input> <select class="rightselect" name="payment" required>
+  <option value="visa">Visa</option>
+  <option value="master">Master Card</option>
+  <option value="paypal">Paypal</option>
+</select><label class="label1">Payment Type:</label> </p><br>
+
+<p><label class="label2">Last name:</label><input  type="text" name="lastname" required></input><input pattern="[0-9]{16}" type="text" name="cardnum" required title="16 Numbers" class="searchin"></input>
+   </input><label class="label1">Card Number:</label> </p><br>  
+<p><label class="label2">Birthdate:</label><input  type="date" name="age" required></input><image src="llogo.JPG" text-align="center" display="inline"><input pattern="[0-9]{3}" type="text" name="securitynumber" required title="3 Numbers" class="searchin"></input>
+   </input><label class="label1">Security Num:</label> </p><br>  
+<p><label class="label2">Email:</label><input  type="email" name="email" required></input><input  type="date" name="expiry" required class="searchin"></input>
+   </input><label class="label1">Expiry Date:</label> </p><br>  
+<p><label class="label2">Movie:</label><select name="movie" required>
+  <option value="bohemian">Bohemian Rhapsody</option>
+  <option value="overlord">Overlord</option>
+  <option value="star">A Star is Born</option>
+  <option value="grinch">The Grinch</option>
+<option value="spider">The Girl in The Spider's Web</option>
+<option value="Halloween">Halloween</option>
+<option value="war">A Private War</option>
+<option value="Nutcracker">The Nutcracker and The Four Realms</option>
+<option value="Fantastic Beasts">The Crimes of Grinderwald</option>
+
+</select></p><br>
+<input type="submit" name="submit" value="Print Ticket">
+
+
+</fieldset>
+</form>
+
+</body>
+<footer id="footer"> 
+<br><br>
+<div>
+<img src="logo2.JPG"  >
+</div>
+<p>
+
+© CSCI301 Cinemas 2018. All rights protected.</p>
+
+
+<p class="plinks">
+
+<a href="#Promotions" >Promotions</a>|
+<a href="#About Us"> About Us  </a>|
+<a href="#FAQs"> FAQs </a>|
+<a href="#Contact Us">Contact Us  </a>|
+<a href="#Careers"> Careers  </a>|
+</p>
+<p><img src="iconfinder_jee01-16_2197031.PNG" ><img src="iconfinder_jee-02_2197013.PNG"><img src="iconfinder_jee-58_2197020.PNG"></p>
+</footer>
+</html>
+</ul>
+
+
+</html>
